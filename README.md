@@ -1,35 +1,43 @@
 # :bar_chart: Data Structures & Algorithms
 
-Data structures can be confusing for beginner programmers! This is an initiative to show the implementation for a data structure visually and through code!
+Data structures and algorithms can be confusing for beginner programmers! This is an initiative to show the implementation for a data structure visually and through code!
 
 There is already a raft of resources to learn data structures, so why another one?
 Because why not? Alright answering a question with another question isn't an answer! We implemented this because other resources were outdated and missing data structures! We wanted to make something aesthetically pleasing and informative! 
 
 This is an ongoing project that has been spun out of Tripodi Studios.
 
-## Getting Started
+## :neckbeard: List of Data Strutures
 
-......
+Below is a list of the data structures that will be implemented. This is not a finalised list so it will mostly change as we begin implementing the project.
 
-### Installing
+- [ ] Linked List
+  - [ ] Singly-Linked List
+  - [ ] Doubly-Linked List
+- [ ] Stack
+- [ ] Queues
+- [ ] Graph
+  - [ ] Directed and Undirected
+  - [ ] Breadth First Search
+  - [ ] Depth First Search
+- [ ] Binary Search Tree
+  - [ ] Traversal
+- [ ] B-Tree
+- [ ] AVL Tree
+- [ ] Set
+- [ ] Map
+- [ ] Hash Table
+- [ ] Hash Table
 
-......
-
-## Running the tests
-
-.....
-
-## Deployment
-
-......
-
-## Contributing
-
-......
-
-## Versioning
-
-......
+## :neckbeard: List of Algorithms
+- [ ] Sorting
+  - [ ] Bubble Sort
+  - [ ] Quick Sort
+  - [ ] Merge Sort
+  - [ ] Insertion Sort
+  - [ ] Heap Sort
+  - [ ] Tim Sort
+  - [ ] Selection Sort
 
 ## Authors
 
