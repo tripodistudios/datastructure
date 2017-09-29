@@ -4,7 +4,7 @@
   "description": "Data structures and algorithms can be confusing for beginner programmers! This is an initiative to show the implementation for a data structure visually and through code!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/tripodistudios/datastructure#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^3.5.3"
+    "jest-cli": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
