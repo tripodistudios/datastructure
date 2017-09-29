@@ -1,0 +1,19 @@
+{
+  "name": "datastructure",
+  "version": "1.0.0",
+  "description": "Data structures and algorithms can be confusing for beginner programmers! This is an initiative to show the implementation for a data structure visually and through code!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripodistudios/datastructure.git"
+  },
+  "author": "Tripodi Studios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tripodistudios/datastructure/issues"
+  },
+  "homepage": "https://github.com/tripodistudios/datastructure#readme"
+}
