@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tripodistudios/datastructure/issues"
   },
-  "homepage": "https://github.com/tripodistudios/datastructure#readme"
+  "homepage": "https://github.com/tripodistudios/datastructure#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
 }
