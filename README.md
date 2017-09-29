@@ -39,6 +39,16 @@ Below is a list of the data structures that will be implemented. This is not a f
   - [ ] Tim Sort
   - [ ] Selection Sort
 
+## Contributing
+
+This project is currently maintained and developed by Tripodi Studios.
+
+Feel free to contribute to the project! However, there is currently no
+explicit guide on how to contribute to the project. A guide will be
+developed as the project matures!
+
+The project follows [gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html).
+
 ## Authors
 
 * **Sav Tripodi** - [savtripodi](https://github.com/stripodi)
