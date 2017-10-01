@@ -16,7 +16,6 @@ class LinkedList {
   }
 
   add(elementToAdd) {
-    // console.log(elementToAdd);
     let nodeValue = new Node(elementToAdd);
     if(!this.head) {
       this.head = nodeValue;
@@ -29,12 +28,58 @@ class LinkedList {
     holder.next = nodeValue;
   }
 
-  delete() {
+  delete(elementToDelete) {
+    if(this.head) {
+      if(this.head.data === elementToDelete) {
+        this.head = this.head.next;
+        return true; 
+      }
+    } else {
+      return false;
+    }
 
+    let previous = this.head;
+    let holder = this.head.next;
+    while(holder) {
+      if(holder.data === elementToDelete) {
+        previous.next = previous.next.next;
+        return true;
+      }
+      previous = holder;
+      holder = holder.next;      
+    }
+
+    return false;
+  }
+
+  get(indexLocation) {
+    if(indexLocation < 0) {
+      return null;
+    }
+    let holder = this.head;
+    let count = 0;
+
+    while(holder) {
+      if(count === indexLocation) {
+        return holder.data;
+      }
+      ++count;
+      holder = holder.next;      
+    }
+    return null;
   }
 
   index(data) {
-
+    let holder = this.head;
+    let location = 0;
+    while(holder) {
+      if(holder.data === data) {
+        return location;
+      }
+      ++location;
+      holder = holder.next;
+    }
+    return -1;
   }
 
   size() {
@@ -56,7 +101,6 @@ class LinkedList {
     }
     return valueToReturn;
   }
-
 }
 
 module.exports = LinkedList;

@@ -15,7 +15,7 @@ describe('Singly Linked List', () => {
     expect(testList.size()).toBe(3);
   });
 
-  test('remove head', () => {
+  test('delete head', () => {
     let testList = new LinkedList();
     testList.add(6);
     testList.add(7);
@@ -23,7 +23,7 @@ describe('Singly Linked List', () => {
     expect(testList.size()).toBe(1);
   });
 
-  test('remove element other than head', () => {
+  test('delete element other than head', () => {
     let testList = new LinkedList();
     testList.add(2);
     testList.add(3);
@@ -33,13 +33,50 @@ describe('Singly Linked List', () => {
     expect(testList.size()).toBe(3);
   });
 
-  test('remove non existent element', () => {
+  test('delete non existent element', () => {
     let testList = new LinkedList();
     testList.add(1);
     testList.add(2);
     testList.add(3);
-    testList.delete(3);
+    testList.delete(4);
     expect(testList.size()).toBe(3);
+  });
+
+  test('index of existing', () => {
+    let testList = new LinkedList();
+    testList.add(1);
+    testList.add(2);
+    testList.add(3);
+    testList.add(4);
+    testList.index(2);
+    expect(testList.index(2)).toBe(1);
+  });
+
+  test('index of non existent', () => {
+    let testList = new LinkedList();
+    testList.add(1);
+    testList.add(2);
+    testList.add(3);
+    testList.add(4);
+    expect(testList.index(5)).toBe(-1);
+  });
+
+  test('get element', () => {
+    let testList = new LinkedList();
+    testList.add(1);
+    testList.add(2);
+    testList.add(3);
+    testList.add(4);
+    expect(testList.get(0)).toBe(1);
+  });
+
+  test('get non existent element', () => {
+    let testList = new LinkedList();
+    testList.add(1);
+    testList.add(2);
+    testList.add(3);
+    testList.add(4);
+    expect(testList.get(5)).toBe(null);
   });
 
 });
